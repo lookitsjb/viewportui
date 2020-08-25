@@ -1,1 +1,1 @@
-# everquest-uis
+# EverQuest Project 1999 UIFiles
