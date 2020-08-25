@@ -195,7 +195,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<AlignRight>true</AlignRight>
+		<AlignCenter>true</AlignCenter>
 	</Label>
 
 	<Label item="AMP_Mana">
@@ -235,7 +235,7 @@
 			<G>255</G>
 			<B>255</B>
 		</TextColor>
-		<AlignRight>true</AlignRight>
+		<AlignCenter>true</AlignCenter>
 	</Label>
 
 	<Label item="AMP_AC">
