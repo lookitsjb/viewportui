@@ -1,0 +1,1819 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Button item = "HB_PageLeftButton">
+		<ScreenID>HB_PageLeftButton</ScreenID>
+	</Button>
+
+	<Label item ="HB_CurrentPageLabel">
+		<ScreenID>HB_CurrentPageLabel</ScreenID>
+	</Label>
+
+	<Button item = "HB_PageRightButton">
+		<ScreenID>HB_PageRightButton</ScreenID>
+	</Button>
+
+	<Button item = "HB_Button1">
+		<ScreenID>HB_Button1</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>1</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton1Normal</Normal>
+			<Pressed>A_HotButton1Pressed</Pressed>
+			<Flyby>A_HotButton1Flyby</Flyby>
+			<Disabled>A_HotButton1Disabled</Disabled>
+			<PressedFlyby>A_HotButton1PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button2">
+		<ScreenID>HB_Button2</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>2</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton2Normal</Normal>
+			<Pressed>A_HotButton2Pressed</Pressed>
+			<Flyby>A_HotButton2Flyby</Flyby>
+			<Disabled>A_HotButton2Disabled</Disabled>
+			<PressedFlyby>A_HotButton2PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button3">
+		<ScreenID>HB_Button3</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>3</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton3Normal</Normal>
+			<Pressed>A_HotButton3Pressed</Pressed>
+			<Flyby>A_HotButton3Flyby</Flyby>
+			<Disabled>A_HotButton3Disabled</Disabled>
+			<PressedFlyby>A_HotButton3PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button4">
+		<ScreenID>HB_Button4</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>4</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton4Normal</Normal>
+			<Pressed>A_HotButton4Pressed</Pressed>
+			<Flyby>A_HotButton4Flyby</Flyby>
+			<Disabled>A_HotButton4Disabled</Disabled>
+			<PressedFlyby>A_HotButton4PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button5">
+		<ScreenID>HB_Button5</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>5</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton5Normal</Normal>
+			<Pressed>A_HotButton5Pressed</Pressed>
+			<Flyby>A_HotButton5Flyby</Flyby>
+			<Disabled>A_HotButton5Disabled</Disabled>
+			<PressedFlyby>A_HotButton5PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button6">
+		<ScreenID>HB_Button6</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>6</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton6Normal</Normal>
+			<Pressed>A_HotButton6Pressed</Pressed>
+			<Flyby>A_HotButton6Flyby</Flyby>
+			<Disabled>A_HotButton6Disabled</Disabled>
+			<PressedFlyby>A_HotButton6PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button7">
+		<ScreenID>HB_Button7</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>7</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton7Normal</Normal>
+			<Pressed>A_HotButton7Pressed</Pressed>
+			<Flyby>A_HotButton7Flyby</Flyby>
+			<Disabled>A_HotButton7Disabled</Disabled>
+			<PressedFlyby>A_HotButton7PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button8">
+		<ScreenID>HB_Button8</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>8</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton8Normal</Normal>
+			<Pressed>A_HotButton8Pressed</Pressed>
+			<Flyby>A_HotButton8Flyby</Flyby>
+			<Disabled>A_HotButton8Disabled</Disabled>
+			<PressedFlyby>A_HotButton8PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button9">
+		<ScreenID>HB_Button9</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>9</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton9Normal</Normal>
+			<Pressed>A_HotButton9Pressed</Pressed>
+			<Flyby>A_HotButton9Flyby</Flyby>
+			<Disabled>A_HotButton9Disabled</Disabled>
+			<PressedFlyby>A_HotButton9PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item = "HB_Button10">
+		<ScreenID>HB_Button10</ScreenID>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Text>10</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<DecalSize>
+			<CX>40</CX>
+			<CY>40</CY>
+		</DecalSize>
+		<ButtonDrawTemplate>
+			<Normal>A_HotButton10Normal</Normal>
+			<Pressed>A_HotButton10Pressed</Pressed>
+			<Flyby>A_HotButton10Flyby</Flyby>
+			<Disabled>A_HotButton10Disabled</Disabled>
+			<PressedFlyby>A_HotButton10PressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<InvSlot item = "HB_InvSlot1">
+		<ScreenID>HB_InvSlot1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot2">
+		<ScreenID>HB_InvSlot2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot3">
+		<ScreenID>HB_InvSlot3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot4">
+		<ScreenID>HB_InvSlot4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot5">
+		<ScreenID>HB_InvSlot5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot6">
+		<ScreenID>HB_InvSlot6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot7">
+		<ScreenID>HB_InvSlot7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot8">
+		<ScreenID>HB_InvSlot8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot9">
+		<ScreenID>HB_InvSlot9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<InvSlot item = "HB_InvSlot10">
+		<ScreenID>HB_InvSlot10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>-1</EQType>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+	</InvSlot>
+
+	<SpellGem item = "HB_SpellGem1">
+		<ScreenID>HB_SpellGem1</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem2">
+		<ScreenID>HB_SpellGem2</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem3">
+		<ScreenID>HB_SpellGem3</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem4">
+		<ScreenID>HB_SpellGem4</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem5">
+		<ScreenID>HB_SpellGem5</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem6">
+		<ScreenID>HB_SpellGem6</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem7">
+		<ScreenID>HB_SpellGem7</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem8">
+		<ScreenID>HB_SpellGem8</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem9">
+		<ScreenID>HB_SpellGem9</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<SpellGem item = "HB_SpellGem10">
+		<ScreenID>HB_SpellGem10</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>44</X>
+			<Y>170</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<SpellGemDrawTemplate>
+			<Holder>HB_SpellGemHolder</Holder>
+		</SpellGemDrawTemplate>
+		<SpellIconOffsetX>2</SpellIconOffsetX>
+		<SpellIconOffsetY>6</SpellIconOffsetY>
+	</SpellGem>
+
+	<Button item = "HB_FileButton">
+		<ScreenID>HB_FileButton</ScreenID>
+	</Button>
+
+	<InvSlot item="HB_InvItem13"> <!-- Primary -->
+		<EQType>13</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvPrimary</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem14"> <!-- Secondary -->
+		<EQType>14</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvSecondary</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem11"> <!-- Range -->
+		<EQType>11</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvRange</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem1"> <!-- Ear Left -->
+		<EQType>1</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>32</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvEar</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem2"> <!-- Head -->
+		<EQType>2</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>32</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvHead</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem4"> <!-- Ear (Right) -->
+		<EQType>4</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>32</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvEar</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem8"> <!-- Back -->
+		<EQType>8</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>62</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvAboutBody</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem3"> <!-- Face -->
+		<EQType>3</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>62</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvFace</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem5"> <!-- Neck -->
+		<EQType>5</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>62</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvNeck</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem6"> <!-- Shoulders -->
+		<EQType>6</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>92</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvShoulders</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem17"> <!-- Chest -->
+		<EQType>17</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>92</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvChest</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem7"> <!-- Arms -->
+		<EQType>7</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>92</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvArms</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem9"> <!-- Wrist (Left) -->
+		<EQType>9</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvWrist</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem12"> <!-- Hands -->
+		<EQType>12</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvHands</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem10"> <!-- Wrist (Right) -->
+		<EQType>10</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>122</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvWrist</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem15"> <!-- Fingers (Left) -->
+		<EQType>15</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>152</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvRing</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem20"> <!-- Waist -->
+		<EQType>20</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>152</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvWaist</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem16"> <!-- Fingers (Right) -->
+		<EQType>16</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>152</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvRing</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem19"> <!-- Feet -->
+		<EQType>19</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>88</X>
+			<Y>182</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvFeet</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem18"> <!-- Legs -->
+		<EQType>18</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>118</X>
+			<Y>182</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvLegs</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem21"> <!-- Ammo -->
+		<EQType>21</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>148</X>
+			<Y>182</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>28</CY>
+		</Size>
+		<Background>A_InvAmmo</Background>
+	</InvSlot>	
+
+	<InvSlot item="HB_InvItem22"> <!-- Inventory #1 -->
+		<EQType>22</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>180</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem23"> <!-- Inventory #2 -->
+		<EQType>23</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>180</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem24"> <!-- Inventory #3 -->
+		<EQType>24</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>180</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem25"> <!-- Inventory #4 -->
+		<EQType>25</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>180</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem26"> <!-- Inventory #5 -->
+		<EQType>26</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem27"> <!-- Inventory #6 -->
+		<EQType>27</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>44</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem28"> <!-- Inventory #7 -->
+		<EQType>28</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>86</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<InvSlot item="HB_InvItem29"> <!-- Inventory #8 -->
+		<EQType>29</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>222</X>
+			<Y>128</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+	</InvSlot>
+
+	<Label item="HB_CurrentWeight_Label">
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>180</X>
+			<Y>176</Y>
+		</Location>
+		<Size>
+			<CX>82</CX>
+			<CY>12</CY>
+		</Size>
+		<Text>WEIGHT</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+	<Label item="HB_CurrentWeight">
+		<EQType>24</EQType>
+		<Font>3</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>180</X>
+			<Y>188</Y>
+		</Location>
+		<Size>
+			<CX>82</CX>
+			<CY>20</CY>
+		</Size>
+		<Text>255</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+	<Screen item = "HotButtonWnd">
+		<ScreenID/>
+		<Font>2</Font>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>230</Y>
+		</Location>
+		<Size>
+			<CX>266</CX>
+			<CY>214</CY>
+		</Size>
+		<Text>Hot Buttons</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Hot Buttons</TooltipReference>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>HB_PageLeftButton</Pieces>
+		<Pieces>HB_PageRightButton</Pieces>
+		<Pieces>HB_CurrentPageLabel</Pieces>
+		<Pieces>HB_Button1</Pieces>
+		<Pieces>HB_Button2</Pieces>
+		<Pieces>HB_Button3</Pieces>
+		<Pieces>HB_Button4</Pieces>
+		<Pieces>HB_Button5</Pieces>
+		<Pieces>HB_Button6</Pieces>
+		<Pieces>HB_Button7</Pieces>
+		<Pieces>HB_Button8</Pieces>
+		<Pieces>HB_Button9</Pieces>
+		<Pieces>HB_Button10</Pieces>
+		<Pieces>HB_InvSlot1</Pieces>
+		<Pieces>HB_InvSlot2</Pieces>
+		<Pieces>HB_InvSlot3</Pieces>
+		<Pieces>HB_InvSlot4</Pieces>
+		<Pieces>HB_InvSlot5</Pieces>
+		<Pieces>HB_InvSlot6</Pieces>
+		<Pieces>HB_InvSlot7</Pieces>
+		<Pieces>HB_InvSlot8</Pieces>
+		<Pieces>HB_InvSlot9</Pieces>
+		<Pieces>HB_InvSlot10</Pieces>
+		<Pieces>HB_SpellGem1</Pieces>
+		<Pieces>HB_SpellGem2</Pieces>
+		<Pieces>HB_SpellGem3</Pieces>
+		<Pieces>HB_SpellGem4</Pieces>
+		<Pieces>HB_SpellGem5</Pieces>
+		<Pieces>HB_SpellGem6</Pieces>
+		<Pieces>HB_SpellGem7</Pieces>
+		<Pieces>HB_SpellGem8</Pieces>
+		<Pieces>HB_SpellGem9</Pieces>
+		<Pieces>HB_SpellGem10</Pieces>
+		<Pieces>HB_FileButton</Pieces>
+		
+		<Pieces>HB_InvItem1</Pieces>
+		<Pieces>HB_InvItem2</Pieces>
+		<Pieces>HB_InvItem3</Pieces>
+		<Pieces>HB_InvItem4</Pieces>
+		<Pieces>HB_InvItem5</Pieces>
+		<Pieces>HB_InvItem6</Pieces>
+		<Pieces>HB_InvItem7</Pieces>
+		<Pieces>HB_InvItem8</Pieces>
+		<Pieces>HB_InvItem9</Pieces>
+		<Pieces>HB_InvItem10</Pieces>
+		<Pieces>HB_InvItem11</Pieces>
+		<Pieces>HB_InvItem12</Pieces>
+		<Pieces>HB_InvItem13</Pieces>
+		<Pieces>HB_InvItem14</Pieces>
+		<Pieces>HB_InvItem15</Pieces>
+		<Pieces>HB_InvItem16</Pieces>
+		<Pieces>HB_InvItem17</Pieces>
+		<Pieces>HB_InvItem18</Pieces>
+		<Pieces>HB_InvItem19</Pieces>
+		<Pieces>HB_InvItem20</Pieces>
+		<Pieces>HB_InvItem21</Pieces>
+
+		<Pieces>HB_InvItem22</Pieces>
+		<Pieces>HB_InvItem23</Pieces>
+		<Pieces>HB_InvItem24</Pieces>
+		<Pieces>HB_InvItem25</Pieces>
+		<Pieces>HB_InvItem26</Pieces>
+		<Pieces>HB_InvItem27</Pieces>
+		<Pieces>HB_InvItem28</Pieces>
+		<Pieces>HB_InvItem29</Pieces>
+		<Pieces>HB_CurrentWeight_Label</Pieces>
+		<Pieces>HB_CurrentWeight</Pieces>
+	</Screen>
+
+
+	<Button item = "HB2_PageLeftButton">
+		<ScreenID>HB2_PageLeftButton</ScreenID>
+	</Button>
+
+	<Label item ="HB2_CurrentPageLabel">
+		<ScreenID>HB2_CurrentPageLabel</ScreenID>
+	</Label>
+
+	<Button item = "HB2_PageRightButton">
+		<ScreenID>HB2_PageRightButton</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button1">
+		<ScreenID>HB2_Button1</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button2">
+		<ScreenID>HB2_Button2</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button3">
+		<ScreenID>HB2_Button3</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button4">
+		<ScreenID>HB2_Button4</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button5">
+		<ScreenID>HB2_Button5</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button6">
+		<ScreenID>HB2_Button6</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button7">
+		<ScreenID>HB2_Button7</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button8">
+		<ScreenID>HB2_Button8</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button9">
+		<ScreenID>HB2_Button9</ScreenID>
+	</Button>
+
+	<Button item = "HB2_Button10">
+		<ScreenID>HB2_Button10</ScreenID>
+	</Button>
+
+	<InvSlot item = "HB2_InvSlot1">
+		<ScreenID>HB2_InvSlot1</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot2">
+		<ScreenID>HB2_InvSlot2</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot3">
+		<ScreenID>HB2_InvSlot3</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot4">
+		<ScreenID>HB2_InvSlot4</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot5">
+		<ScreenID>HB2_InvSlot5</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot6">
+		<ScreenID>HB2_InvSlot6</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot7">
+		<ScreenID>HB2_InvSlot7</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot8">
+		<ScreenID>HB2_InvSlot8</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot9">
+		<ScreenID>HB2_InvSlot9</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB2_InvSlot10">
+		<ScreenID>HB2_InvSlot10</ScreenID>
+	</InvSlot>
+
+	<SpellGem item = "HB2_SpellGem1">
+		<ScreenID>HB2_SpellGem1</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem2">
+		<ScreenID>HB2_SpellGem2</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem3">
+		<ScreenID>HB2_SpellGem3</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem4">
+		<ScreenID>HB2_SpellGem4</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem5">
+		<ScreenID>HB2_SpellGem5</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem6">
+		<ScreenID>HB2_SpellGem6</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem7">
+		<ScreenID>HB2_SpellGem7</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem8">
+		<ScreenID>HB2_SpellGem8</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem9">
+		<ScreenID>HB2_SpellGem9</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB2_SpellGem10">
+		<ScreenID>HB2_SpellGem10</ScreenID>
+	</SpellGem>
+
+	<Button item = "HB2_FileButton">
+		<ScreenID>HB2_FileButton</ScreenID>
+	</Button>
+	
+	<Screen item = "HotButtonWnd2">
+		<ScreenID/>
+		<Font>2</Font>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Text>Hot Buttons 2</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Hot Buttons</TooltipReference>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>HB2_PageLeftButton</Pieces>
+		<Pieces>HB2_PageRightButton</Pieces>
+		<Pieces>HB2_CurrentPageLabel</Pieces>
+		<Pieces>HB2_Button1</Pieces>
+		<Pieces>HB2_Button2</Pieces>
+		<Pieces>HB2_Button3</Pieces>
+		<Pieces>HB2_Button4</Pieces>
+		<Pieces>HB2_Button5</Pieces>
+		<Pieces>HB2_Button6</Pieces>
+		<Pieces>HB2_Button7</Pieces>
+		<Pieces>HB2_Button8</Pieces>
+		<Pieces>HB2_Button9</Pieces>
+		<Pieces>HB2_Button10</Pieces>
+		<Pieces>HB2_InvSlot1</Pieces>
+		<Pieces>HB2_InvSlot2</Pieces>
+		<Pieces>HB2_InvSlot3</Pieces>
+		<Pieces>HB2_InvSlot4</Pieces>
+		<Pieces>HB2_InvSlot5</Pieces>
+		<Pieces>HB2_InvSlot6</Pieces>
+		<Pieces>HB2_InvSlot7</Pieces>
+		<Pieces>HB2_InvSlot8</Pieces>
+		<Pieces>HB2_InvSlot9</Pieces>
+		<Pieces>HB2_InvSlot10</Pieces>
+		<Pieces>HB2_SpellGem1</Pieces>
+		<Pieces>HB2_SpellGem2</Pieces>
+		<Pieces>HB2_SpellGem3</Pieces>
+		<Pieces>HB2_SpellGem4</Pieces>
+		<Pieces>HB2_SpellGem5</Pieces>
+		<Pieces>HB2_SpellGem6</Pieces>
+		<Pieces>HB2_SpellGem7</Pieces>
+		<Pieces>HB2_SpellGem8</Pieces>
+		<Pieces>HB2_SpellGem9</Pieces>
+		<Pieces>HB2_SpellGem10</Pieces>
+		<Pieces>HB2_FileButton</Pieces>
+	</Screen>
+	
+	
+	<Button item = "HB3_PageLeftButton">
+		<ScreenID>HB3_PageLeftButton</ScreenID>
+	</Button>
+
+	<Label item ="HB3_CurrentPageLabel">
+		<ScreenID>HB3_CurrentPageLabel</ScreenID>
+	</Label>
+
+	<Button item = "HB3_PageRightButton">
+		<ScreenID>HB3_PageRightButton</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button1">
+		<ScreenID>HB3_Button1</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button2">
+		<ScreenID>HB3_Button2</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button3">
+		<ScreenID>HB3_Button3</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button4">
+		<ScreenID>HB3_Button4</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button5">
+		<ScreenID>HB3_Button5</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button6">
+		<ScreenID>HB3_Button6</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button7">
+		<ScreenID>HB3_Button7</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button8">
+		<ScreenID>HB3_Button8</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button9">
+		<ScreenID>HB3_Button9</ScreenID>
+	</Button>
+
+	<Button item = "HB3_Button10">
+		<ScreenID>HB3_Button10</ScreenID>
+	</Button>
+
+	<InvSlot item = "HB3_InvSlot1">
+		<ScreenID>HB3_InvSlot1</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot2">
+		<ScreenID>HB3_InvSlot2</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot3">
+		<ScreenID>HB3_InvSlot3</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot4">
+		<ScreenID>HB3_InvSlot4</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot5">
+		<ScreenID>HB3_InvSlot5</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot6">
+		<ScreenID>HB3_InvSlot6</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot7">
+		<ScreenID>HB3_InvSlot7</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot8">
+		<ScreenID>HB3_InvSlot8</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot9">
+		<ScreenID>HB3_InvSlot9</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB3_InvSlot10">
+		<ScreenID>HB3_InvSlot10</ScreenID>
+	</InvSlot>
+
+	<SpellGem item = "HB3_SpellGem1">
+		<ScreenID>HB3_SpellGem1</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem2">
+		<ScreenID>HB3_SpellGem2</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem3">
+		<ScreenID>HB3_SpellGem3</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem4">
+		<ScreenID>HB3_SpellGem4</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem5">
+		<ScreenID>HB3_SpellGem5</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem6">
+		<ScreenID>HB3_SpellGem6</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem7">
+		<ScreenID>HB3_SpellGem7</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem8">
+		<ScreenID>HB3_SpellGem8</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem9">
+		<ScreenID>HB3_SpellGem9</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB3_SpellGem10">
+		<ScreenID>HB3_SpellGem10</ScreenID>
+	</SpellGem>
+
+	<Button item = "HB3_FileButton">
+		<ScreenID>HB3_FileButton</ScreenID>
+	</Button>
+	
+	<Screen item = "HotButtonWnd3">
+		<ScreenID/>
+		<Font>2</Font>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Text>Hot Buttons 3</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Hot Buttons</TooltipReference>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>HB3_PageLeftButton</Pieces>
+		<Pieces>HB3_PageRightButton</Pieces>
+		<Pieces>HB3_CurrentPageLabel</Pieces>
+		<Pieces>HB3_Button1</Pieces>
+		<Pieces>HB3_Button2</Pieces>
+		<Pieces>HB3_Button3</Pieces>
+		<Pieces>HB3_Button4</Pieces>
+		<Pieces>HB3_Button5</Pieces>
+		<Pieces>HB3_Button6</Pieces>
+		<Pieces>HB3_Button7</Pieces>
+		<Pieces>HB3_Button8</Pieces>
+		<Pieces>HB3_Button9</Pieces>
+		<Pieces>HB3_Button10</Pieces>
+		<Pieces>HB3_InvSlot1</Pieces>
+		<Pieces>HB3_InvSlot2</Pieces>
+		<Pieces>HB3_InvSlot3</Pieces>
+		<Pieces>HB3_InvSlot4</Pieces>
+		<Pieces>HB3_InvSlot5</Pieces>
+		<Pieces>HB3_InvSlot6</Pieces>
+		<Pieces>HB3_InvSlot7</Pieces>
+		<Pieces>HB3_InvSlot8</Pieces>
+		<Pieces>HB3_InvSlot9</Pieces>
+		<Pieces>HB3_InvSlot10</Pieces>
+		<Pieces>HB3_SpellGem1</Pieces>
+		<Pieces>HB3_SpellGem2</Pieces>
+		<Pieces>HB3_SpellGem3</Pieces>
+		<Pieces>HB3_SpellGem4</Pieces>
+		<Pieces>HB3_SpellGem5</Pieces>
+		<Pieces>HB3_SpellGem6</Pieces>
+		<Pieces>HB3_SpellGem7</Pieces>
+		<Pieces>HB3_SpellGem8</Pieces>
+		<Pieces>HB3_SpellGem9</Pieces>
+		<Pieces>HB3_SpellGem10</Pieces>
+		<Pieces>HB3_FileButton</Pieces>
+	</Screen>
+	
+
+	<Button item = "HB4_PageLeftButton">
+		<ScreenID>HB4_PageLeftButton</ScreenID>
+	</Button>
+
+	<Label item ="HB4_CurrentPageLabel">
+		<ScreenID>HB4_CurrentPageLabel</ScreenID>
+	</Label>
+
+	<Button item = "HB4_PageRightButton">
+		<ScreenID>HB4_PageRightButton</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button1">
+		<ScreenID>HB4_Button1</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button2">
+		<ScreenID>HB4_Button2</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button3">
+		<ScreenID>HB4_Button3</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button4">
+		<ScreenID>HB4_Button4</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button5">
+		<ScreenID>HB4_Button5</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button6">
+		<ScreenID>HB4_Button6</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button7">
+		<ScreenID>HB4_Button7</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button8">
+		<ScreenID>HB4_Button8</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button9">
+		<ScreenID>HB4_Button9</ScreenID>
+	</Button>
+
+	<Button item = "HB4_Button10">
+		<ScreenID>HB4_Button10</ScreenID>
+	</Button>
+
+	<InvSlot item = "HB4_InvSlot1">
+		<ScreenID>HB4_InvSlot1</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot2">
+		<ScreenID>HB4_InvSlot2</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot3">
+		<ScreenID>HB4_InvSlot3</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot4">
+		<ScreenID>HB4_InvSlot4</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot5">
+		<ScreenID>HB4_InvSlot5</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot6">
+		<ScreenID>HB4_InvSlot6</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot7">
+		<ScreenID>HB4_InvSlot7</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot8">
+		<ScreenID>HB4_InvSlot8</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot9">
+		<ScreenID>HB4_InvSlot9</ScreenID>
+	</InvSlot>
+
+	<InvSlot item = "HB4_InvSlot10">
+		<ScreenID>HB4_InvSlot10</ScreenID>
+	</InvSlot>
+
+	<SpellGem item = "HB4_SpellGem1">
+		<ScreenID>HB4_SpellGem1</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem2">
+		<ScreenID>HB4_SpellGem2</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem3">
+		<ScreenID>HB4_SpellGem3</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem4">
+		<ScreenID>HB4_SpellGem4</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem5">
+		<ScreenID>HB4_SpellGem5</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem6">
+		<ScreenID>HB4_SpellGem6</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem7">
+		<ScreenID>HB4_SpellGem7</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem8">
+		<ScreenID>HB4_SpellGem8</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem9">
+		<ScreenID>HB4_SpellGem9</ScreenID>
+	</SpellGem>
+
+	<SpellGem item = "HB4_SpellGem10">
+		<ScreenID>HB4_SpellGem10</ScreenID>
+	</SpellGem>
+
+	<Button item = "HB4_FileButton">
+		<ScreenID>HB4_FileButton</ScreenID>
+	</Button>
+	
+	<Screen item = "HotButtonWnd4">
+		<ScreenID/>
+		<Font>2</Font>
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>0</Y>
+		</Location>
+		<Size>
+			<CX>0</CX>
+			<CY>0</CY>
+		</Size>
+		<Text>Hot Buttons 4</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Hot Buttons</TooltipReference>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>true</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<Pieces>HB4_PageLeftButton</Pieces>
+		<Pieces>HB4_PageRightButton</Pieces>
+		<Pieces>HB4_CurrentPageLabel</Pieces>
+		<Pieces>HB4_Button1</Pieces>
+		<Pieces>HB4_Button2</Pieces>
+		<Pieces>HB4_Button3</Pieces>
+		<Pieces>HB4_Button4</Pieces>
+		<Pieces>HB4_Button5</Pieces>
+		<Pieces>HB4_Button6</Pieces>
+		<Pieces>HB4_Button7</Pieces>
+		<Pieces>HB4_Button8</Pieces>
+		<Pieces>HB4_Button9</Pieces>
+		<Pieces>HB4_Button10</Pieces>
+		<Pieces>HB4_InvSlot1</Pieces>
+		<Pieces>HB4_InvSlot2</Pieces>
+		<Pieces>HB4_InvSlot3</Pieces>
+		<Pieces>HB4_InvSlot4</Pieces>
+		<Pieces>HB4_InvSlot5</Pieces>
+		<Pieces>HB4_InvSlot6</Pieces>
+		<Pieces>HB4_InvSlot7</Pieces>
+		<Pieces>HB4_InvSlot8</Pieces>
+		<Pieces>HB4_InvSlot9</Pieces>
+		<Pieces>HB4_InvSlot10</Pieces>
+		<Pieces>HB4_SpellGem1</Pieces>
+		<Pieces>HB4_SpellGem2</Pieces>
+		<Pieces>HB4_SpellGem3</Pieces>
+		<Pieces>HB4_SpellGem4</Pieces>
+		<Pieces>HB4_SpellGem5</Pieces>
+		<Pieces>HB4_SpellGem6</Pieces>
+		<Pieces>HB4_SpellGem7</Pieces>
+		<Pieces>HB4_SpellGem8</Pieces>
+		<Pieces>HB4_SpellGem9</Pieces>
+		<Pieces>HB4_SpellGem10</Pieces>
+		<Pieces>HB4_FileButton</Pieces>
+	</Screen>
+</XML>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<XML ID="EQInterfaceDefinitionLanguage">
+	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
+
+	<Label item="GW_Hotkey1">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>13</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>F2</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Gauge item="GW_Gauge1">
+		<ScreenID>Gauge1</ScreenID>
+		<EQType>11</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>2</Y>
+		</Location>
+		<Size>
+			<CX>225</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<TextOffsetX>30</TextOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>192</G>
+			<B>240</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="GW_HPLabel1">
+		<ScreenID>HPLabel1</ScreenID>
+		<EQType>35</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>235</X>
+			<Y>14</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>10</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>100</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item="GW_Hotkey2">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>13</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>F3</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Gauge item="GW_Gauge2">
+		<ScreenID>Gauge2</ScreenID>
+		<EQType>12</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>27</Y>
+		</Location>
+		<Size>
+			<CX>225</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<TextOffsetX>30</TextOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>192</G>
+			<B>240</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="GW_HPLabel2">
+		<ScreenID>HPLabel2</ScreenID>
+		<EQType>36</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>235</X>
+			<Y>39</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>10</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>100</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item="GW_Hotkey3">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>54</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>13</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>F4</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Gauge item="GW_Gauge3">
+		<ScreenID>Gauge3</ScreenID>
+		<EQType>13</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>54</Y>
+		</Location>
+		<Size>
+			<CX>225</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<TextOffsetX>30</TextOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>192</G>
+			<B>240</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="GW_HPLabel3">
+		<ScreenID>HPLabel3</ScreenID>
+		<EQType>37</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>235</X>
+			<Y>66</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>10</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>100</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item="GW_Hotkey4">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>81</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>13</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>F5</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Gauge item="GW_Gauge4">
+		<ScreenID>Gauge4</ScreenID>
+		<EQType>14</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>81</Y>
+		</Location>
+		<Size>
+			<CX>225</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<TextOffsetX>30</TextOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>192</G>
+			<B>240</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="GW_HPLabel4">
+		<ScreenID>HPLabel4</ScreenID>
+		<EQType>38</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>235</X>
+			<Y>93</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>10</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>100</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item="GW_Hotkey5">
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>108</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>13</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>F6</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Gauge item="GW_Gauge5">
+		<ScreenID>Gauge5</ScreenID>
+		<EQType>15</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>108</Y>
+		</Location>
+		<Size>
+			<CX>225</CX>
+			<CY>25</CY>
+		</Size>
+		<Font>2</Font>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<TextOffsetX>30</TextOffsetX>
+		<GaugeOffsetY>13</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>192</G>
+			<B>240</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="GW_HPLabel5">
+		<ScreenID>HPLabel5</ScreenID>
+		<EQType>39</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>235</X>
+			<Y>120</Y>
+		</Location>
+		<Size>
+			<CX>28</CX>
+			<CY>10</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>100</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+	</Label>
+
+	<Label item="GW_HPPercLabel1">
+		<ScreenID>HPPercLabel1</ScreenID>
+	</Label>
+
+	<Gauge item="GW_PetGauge1">
+		<ScreenID>PetGauge1</ScreenID>
+	</Gauge>
+
+	<Label item="GW_HPPercLabel2">
+		<ScreenID>HPPercLabel2</ScreenID>
+	</Label>
+
+	<Gauge item="GW_PetGauge2">
+		<ScreenID>PetGauge2</ScreenID>
+	</Gauge>
+
+	<Label item="GW_HPPercLabel3">
+		<ScreenID>HPPercLabel3</ScreenID>
+	</Label>
+
+	<Gauge item="GW_PetGauge3">
+		<ScreenID>PetGauge3</ScreenID>
+	</Gauge>
+
+	<Label item="GW_HPPercLabel4">
+		<ScreenID>HPPercLabel4</ScreenID>
+	</Label>
+
+	<Gauge item="GW_PetGauge4">
+		<ScreenID>PetGauge4</ScreenID>
+	</Gauge>
+
+	<Label item="GW_HPPercLabel5">
+		<ScreenID>HPPercLabel5</ScreenID>
+	</Label>
+
+	<Gauge item="GW_PetGauge5">
+		<ScreenID>PetGauge5</ScreenID>
+	</Gauge>
+
+	<Button item = "GW_LFGButton">
+		<ScreenID>LFGButton</ScreenID>
+	</Button>
+
+	<Button item="GW_InviteButton">
+		<ScreenID>InviteButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>122</CX>
+			<CY>16</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>Invite</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="GW_DisbandButton">
+		<ScreenID>DisbandButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>132</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>122</CX>
+			<CY>16</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>Disband</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="GW_FollowButton">
+		<ScreenID>FollowButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>8</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>122</CX>
+			<CY>16</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>Follow</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Button item="GW_DeclineButton">
+		<ScreenID>DeclineButton</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>132</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>122</CX>
+			<CY>16</CY>
+		</Size>
+		<Font>2</Font>
+		<Text>Decline</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<ButtonDrawTemplate>
+			<Normal>A_BtnNormal</Normal>
+			<Pressed>A_BtnPressed</Pressed>
+			<Flyby>A_BtnFlyby</Flyby>
+			<Disabled>A_BtnDisabled</Disabled>
+			<PressedFlyby>A_BtnPressedFlyby</PressedFlyby>
+		</ButtonDrawTemplate>
+	</Button>
+
+	<Screen item="GroupWindow">
+		<ScreenID />
+		<RelativePosition>false</RelativePosition>
+		<Location>
+			<X>516</X>
+			<Y>78</Y>
+		</Location>
+		<Size>
+			<CX>266</CX>
+			<CY>155</CY>
+		</Size>
+		<Text>Group</Text>
+		<Style_VScroll>false</Style_VScroll>
+		<Style_HScroll>false</Style_HScroll>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference />
+		<Style_Titlebar>false</Style_Titlebar>
+		<Style_Closebox>false</Style_Closebox>
+		<Style_Minimizebox>false</Style_Minimizebox>
+		<Style_Border>true</Style_Border>
+		<Style_Sizable>false</Style_Sizable>
+		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<Pieces>GW_InviteButton</Pieces>
+		<Pieces>GW_DisbandButton</Pieces>
+		<Pieces>GW_FollowButton</Pieces>
+		<Pieces>GW_DeclineButton</Pieces>
+		<Pieces>GW_Hotkey1</Pieces>
+		<Pieces>GW_Hotkey2</Pieces>
+		<Pieces>GW_Hotkey3</Pieces>
+		<Pieces>GW_Hotkey4</Pieces>
+		<Pieces>GW_Hotkey5</Pieces>
+		<Pieces>GW_Gauge1</Pieces>
+		<Pieces>GW_Gauge2</Pieces>
+		<Pieces>GW_Gauge3</Pieces>
+		<Pieces>GW_Gauge4</Pieces>
+		<Pieces>GW_Gauge5</Pieces>
+		<Pieces>GW_HPLabel1</Pieces>
+		<Pieces>GW_HPLabel2</Pieces>
+		<Pieces>GW_HPLabel3</Pieces>
+		<Pieces>GW_HPLabel4</Pieces>
+		<Pieces>GW_HPLabel5</Pieces>
+		<Pieces>GW_HPPercLabel1</Pieces>
+		<Pieces>GW_HPPercLabel2</Pieces>
+		<Pieces>GW_HPPercLabel3</Pieces>
+		<Pieces>GW_HPPercLabel4</Pieces>
+		<Pieces>GW_HPPercLabel5</Pieces>
+		<Pieces>GW_PetGauge1</Pieces>
+		<Pieces>GW_PetGauge2</Pieces>
+		<Pieces>GW_PetGauge3</Pieces>
+		<Pieces>GW_PetGauge4</Pieces>
+		<Pieces>GW_PetGauge5</Pieces>
+		<Pieces>GW_LFGButton</Pieces>
+	</Screen>
+</XML>
