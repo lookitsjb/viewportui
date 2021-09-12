@@ -34,11 +34,63 @@
 		<ScreenID>CSWDummy</ScreenID>
 	</StaticAnimation>
 
+	<Gauge item="CSPW_Mana">
+		<EQType>2</EQType>
+		<ScreenID>PlayerMana</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>4</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>10</CY>
+		</Size>
+		<TextOffsetX>-500</TextOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>51</G>
+			<B>192</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="CSPW_ManaLabel">
+		<ScreenID>ManaLabel</ScreenID>
+		<EQType>20</EQType>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>10</CY>
+		</Size>
+		<Text>100</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			<Alpha>255</Alpha>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
 	<Label item="CSPW_Spell0_NumberLabel">
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>6</Y>
+			<Y>24</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -58,7 +110,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>11</Y>
+			<Y>29</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -72,7 +124,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>2</Y>
+			<Y>20</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -91,7 +143,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>9</Y>
+			<Y>27</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -112,7 +164,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>8</Y>
+			<Y>26</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -131,7 +183,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>29</Y>
+			<Y>47</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -151,7 +203,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>34</Y>
+			<Y>52</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -165,7 +217,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>25</Y>
+			<Y>43</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -184,7 +236,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>32</Y>
+			<Y>50</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -205,7 +257,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>31</Y>
+			<Y>49</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -224,7 +276,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>52</Y>
+			<Y>70</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -244,7 +296,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>57</Y>
+			<Y>75</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -258,7 +310,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>48</Y>
+			<Y>66</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -277,7 +329,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>55</Y>
+			<Y>73</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -298,7 +350,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>54</Y>
+			<Y>72</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -317,7 +369,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>75</Y>
+			<Y>93</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -337,7 +389,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>80</Y>
+			<Y>98</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -351,7 +403,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>71</Y>
+			<Y>89</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -370,7 +422,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>78</Y>
+			<Y>96</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -391,7 +443,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>77</Y>
+			<Y>95</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -410,7 +462,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>98</Y>
+			<Y>116</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -430,7 +482,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>103</Y>
+			<Y>121</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -444,7 +496,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>94</Y>
+			<Y>122</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -463,7 +515,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>101</Y>
+			<Y>119</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -484,7 +536,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>100</Y>
+			<Y>118</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -503,7 +555,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>121</Y>
+			<Y>139</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -523,7 +575,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>126</Y>
+			<Y>144</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -537,7 +589,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>117</Y>
+			<Y>135</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -556,7 +608,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>124</Y>
+			<Y>142</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -577,7 +629,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>123</Y>
+			<Y>141</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -596,7 +648,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>144</Y>
+			<Y>162</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -616,7 +668,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>149</Y>
+			<Y>161</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -630,7 +682,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>140</Y>
+			<Y>158</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -649,7 +701,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>147</Y>
+			<Y>165</Y>
 		</Location>
 		<Size>
 			<CX>225</CX>
@@ -670,7 +722,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>146</Y>
+			<Y>164</Y>
 		</Location>
 		<Size>
 			<CX>225</CX>
@@ -689,7 +741,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>167</Y>
+			<Y>185</Y>
 		</Location>
 		<Size>
 			<CX>28</CX>
@@ -709,7 +761,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>172</Y>
+			<Y>190</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -723,7 +775,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>163</Y>
+			<Y>191</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -742,7 +794,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>37</X>
-			<Y>170</Y>
+			<Y>188</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -763,7 +815,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>169</Y>
+			<Y>181</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>
@@ -792,7 +844,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>190</Y>
+			<Y>208</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -824,7 +876,7 @@
 		</Location>
 		<Size>
 			<CX>266</CX>
-			<CY>189</CY>
+			<CY>207</CY>
 		</Size>
 		<Text>Spells</Text>
 		<Style_Transparent>false</Style_Transparent>
@@ -836,6 +888,8 @@
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>CSWDummy</Pieces>
+		<Pieces>CSPW_Mana</Pieces>
+		<Pieces>CSPW_ManaLabel</Pieces>
 		<Pieces>CSPW_Spell0_NumberLabel</Pieces>
 		<Pieces>CSPW_Spell1_NumberLabel</Pieces>
 		<Pieces>CSPW_Spell2_NumberLabel</Pieces>

@@ -3,8 +3,8 @@
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 	<TextureInfo item="AttackIndicator.tga">
 		<Size>
-			<CX>128</CX>
-			<CY>32</CY>
+			<CX>256</CX>
+			<CY>128s</CY>
 		</Size>
 	</TextureInfo>
 	
@@ -17,8 +17,8 @@
 				<Y>0</Y>
 			</Location>
 			<Size>
-				<CX>115</CX>
-				<CY>30</CY>
+				<CX>256</CX>
+				<CY>80</CY>
 			</Size>
 		</Frames>
 	</Ui2DAnimation>
@@ -32,37 +32,15 @@
 		<EQType>2</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>8</X>
-			<Y>6</Y>
+			<X>16</X>
+			<Y>30</Y>
 		</Location>
 		<Size>
-			<CX>24</CX>
-			<CY>21</CY>
+			<CX>18</CX>
+			<CY>12</CY>
 		</Size>
-		<Font>5</Font>
+		<Font>1</Font>
 		<Text>99</Text>
-		<TextColor>
-			<R>240</R>
-			<G>240</G>
-			<B>240</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-		<AlignCenter>true</AlignCenter>
-	</Label>
-
-	<Label item="PW_NameLabel">
-		<EQType>1</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>34</X>
-			<Y>2</Y>
-		</Location>
-		<Size>
-			<CX>85</CX>
-			<CY>13</CY>
-		</Size>
-		<Font>2</Font>
-		<Text>Playername123456</Text>
 		<TextColor>
 			<R>240</R>
 			<G>240</G>
@@ -76,13 +54,13 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>34</X>
-			<Y>15</Y>
+			<Y>30</Y>
 		</Location>
 		<Size>
-			<CX>85</CX>
-			<CY>13</CY>
+			<CX>114</CX>
+			<CY>12</CY>
 		</Size>
-		<Font>2</Font>
+		<Font>1</Font>
 		<Text>Playerclass123456</Text>
 		<TextColor>
 			<R>240</R>
@@ -92,13 +70,108 @@
 		<NoWrap>true</NoWrap>
 	</Label>	
 
+	<Label item="PW_DietyLabel">
+		<EQType>4</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>132</X>
+			<Y>30</Y>
+		</Location>
+		<Size>
+			<CX>114</CX>
+			<CY>12</CY>
+		</Size>
+		<Font>1</Font>
+		<Text>PlayerDiety123456</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignRight>true</AlignRight>
+	</Label>	
+
+	<Label item="PW_NameLabel">
+		<EQType>1</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>0</X>
+			<Y>8</Y>
+		</Location>
+		<Size>
+			<CX>266</CX>
+			<CY>21</CY>
+		</Size>
+		<Font>5</Font>
+		<Text>Playername123456</Text>
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+	
+	<Gauge item="Player_HP">
+		<ScreenID>PlayerHP</ScreenID>
+		<EQType>1</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>43</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>20</CY>
+		</Size>
+		<TextOffsetX>-500</TextOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>0</R>
+			<G>192</G>
+			<B>0</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_LargeGaugeBackground</Background>
+			<Fill>A_LargeGaugeFill</Fill>
+			<EndCapLeft>A_LargeGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_LargeGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="Player_HPLabel">
+		<ScreenID>HPLabel</ScreenID>
+		<EQType>19</EQType>
+		<Font>1</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>16</X>
+			<Y>47</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>10</CY>
+		</Size>
+		<Text>100</Text>
+		<TextColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
 	<Gauge item="Player_Experience">
 		<ScreenID>PlayerExperience</ScreenID>
 		<EQType>4</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>119</X>
-			<Y>5</Y>
+			<X>16</X>
+			<Y>65</Y>
 		</Location>
 		<Size>
 			<CX>114</CX>
@@ -125,11 +198,11 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>235</X>
-			<Y>4</Y>
+			<X>16</X>
+			<Y>64</Y>
 		</Location>
 		<Size>
-			<CX>28</CX>
+			<CX>114</CX>
 			<CY>10</CY>
 		</Size>
 		<Text>100</Text>
@@ -139,6 +212,7 @@
 			<B>240</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
 	</Label>
 
 	<Gauge item="Player_Fatigue">
@@ -146,8 +220,8 @@
 		<EQType>3</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>119</X>
-			<Y>17</Y>
+			<X>132</X>
+			<Y>65</Y>
 		</Location>
 		<Size>
 			<CX>114</CX>
@@ -174,11 +248,11 @@
 		<Font>1</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>235</X>
-			<Y>16</Y>
+			<X>132</X>
+			<Y>64</Y>
 		</Location>
 		<Size>
-			<CX>28</CX>
+			<CX>114</CX>
 			<CY>10</CY>
 		</Size>
 		<Text>100</Text>
@@ -188,157 +262,6 @@
 			<B>240</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
-	</Label>
-	
-	<Gauge item="Player_HP">
-		<ScreenID>PlayerHP</ScreenID>
-		<EQType>1</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>8</X>
-			<Y>29</Y>
-		</Location>
-		<Size>
-			<CX>225</CX>
-			<CY>20</CY>
-		</Size>
-		<TextOffsetX>-500</TextOffsetX>
-		<GaugeOffsetY>0</GaugeOffsetY>
-		<FillTint>
-			<R>0</R>
-			<G>192</G>
-			<B>0</B>
-		</FillTint>
-		<DrawLinesFill>false</DrawLinesFill>
-		<GaugeDrawTemplate>
-			<Background>A_LargeGaugeBackground</Background>
-			<Fill>A_LargeGaugeFill</Fill>
-			<EndCapLeft>A_LargeGaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_LargeGaugeEndCapRight</EndCapRight>
-		</GaugeDrawTemplate>
-	</Gauge>
-
-	<Label item="Player_HPLabel">
-		<ScreenID>HPLabel</ScreenID>
-		<EQType>19</EQType>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>235</X>
-			<Y>33</Y>
-		</Location>
-		<Size>
-			<CX>28</CX>
-			<CY>10</CY>
-		</Size>
-		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-	</Label>
-
-	<Gauge item="Player_Mana">
-		<EQType>2</EQType>
-		<ScreenID>PlayerMana</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>8</X>
-			<Y>51</Y>
-		</Location>
-		<Size>
-			<CX>225</CX>
-			<CY>10</CY>
-		</Size>
-		<TextOffsetX>-500</TextOffsetX>
-		<GaugeOffsetY>0</GaugeOffsetY>
-		<FillTint>
-			<R>0</R>
-			<G>51</G>
-			<B>192</B>
-		</FillTint>
-		<DrawLinesFill>false</DrawLinesFill>
-		<GaugeDrawTemplate>
-			<Background>A_SmallGaugeBackground</Background>
-			<Fill>A_SmallGaugeFill</Fill>
-			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
-		</GaugeDrawTemplate>
-	</Gauge>
-
-	<Label item="Player_ManaLabel">
-		<ScreenID>ManaLabel</ScreenID>
-		<EQType>20</EQType>
-		<Font>1</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>235</X>
-			<Y>50</Y>
-		</Location>
-		<Size>
-			<CX>28</CX>
-			<CY>10</CY>
-		</Size>
-		<Text>100</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-			<Alpha>255</Alpha>
-		</TextColor>
-		<NoWrap>true</NoWrap>
-	</Label>
-
-	<Gauge item="Player_CastingGauge">
-		<EQType>7</EQType>
-		<ScreenID>Gauge</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>8</X>
-			<Y>51</Y>
-		</Location>
-		<Size>
-			<CX>225</CX>
-			<CY>10</CY>
-		</Size>
-		<TextOffsetX>-500</TextOffsetX>
-		<GaugeOffsetY>0</GaugeOffsetY>
-		<FillTint>
-			<R>192</R>
-			<G>0</G>
-			<B>192</B>
-		</FillTint>
-		<DrawLinesFill>false</DrawLinesFill>
-		<GaugeDrawTemplate>
-			<Background>A_SmallGaugeBackground</Background>
-			<Fill>A_SmallGaugeFill</Fill>
-			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
-			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
-		</GaugeDrawTemplate>
-	</Gauge>
-
-	<Label item="Player_CastingSpellName">
-		<ScreenID />
-		<EQType>134</EQType>
-		<Font>2</Font>
-		<RelativePosition>true</RelativePosition>
-		<Location>
-			<X>8</X>
-			<Y>63</Y>
-		</Location>
-		<Size>
-			<CX>225</CX>
-			<CY>13</CY>
-		</Size>
-		<Text />
-		<TextColor>
-			<R>240</R>
-			<G>240</G>
-			<B>240</B>
-		</TextColor>
-		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
 	</Label>
 
@@ -379,19 +302,16 @@
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>PW_LevelLabel</Pieces>
 		<Pieces>PW_NameLabel</Pieces>
+		<Pieces>PW_DietyLabel</Pieces>
 		<Pieces>PW_ClassLabel</Pieces>
+
+		<Pieces>Player_HP</Pieces>
+		<Pieces>Player_HPLabel</Pieces>
 
 		<Pieces>Player_Experience</Pieces>
 		<Pieces>Player_ExperienceLabel</Pieces>
 		<Pieces>Player_Fatigue</Pieces>
 		<Pieces>Player_FatigueLabel</Pieces>
-
-		<Pieces>Player_HP</Pieces>
-		<Pieces>Player_HPLabel</Pieces>
-		<Pieces>Player_Mana</Pieces>
-		<Pieces>Player_ManaLabel</Pieces>
-		<Pieces>Player_CastingGauge</Pieces>
-		<Pieces>Player_CastingSpellName</Pieces>
 		
 		<Pieces>A_AttackIndicatorAnim</Pieces>
 

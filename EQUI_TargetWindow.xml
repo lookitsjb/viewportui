@@ -2,15 +2,37 @@
 <XML ID="EQInterfaceDefinitionLanguage">
 	<Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
 
+	<Label item="Target_NameLabelShd">
+		<EQType>28</EQType>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>3</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>21</CY>
+		</Size>
+		<Font>5</Font>
+		<Text>Playername123456</Text>
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
 	<Label item="Target_NameLabel">
 		<EQType>28</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>8</X>
+			<X>2</X>
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>225</CX>
+			<CX>230</CX>
 			<CY>21</CY>
 		</Size>
 		<Font>5</Font>
@@ -29,11 +51,11 @@
 		<EQType>6</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>8</X>
+			<X>2</X>
 			<Y>24</Y>
 		</Location>
 		<Size>
-			<CX>225</CX>
+			<CX>230</CX>
 			<CY>20</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
@@ -57,11 +79,11 @@
 		<EQType>29</EQType>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>235</X>
+			<X>2</X>
 			<Y>28</Y>
 		</Location>
 		<Size>
-			<CX>28</CX>
+			<CX>230</CX>
 			<CY>10</CY>
 		</Size>
 		<Font>1</Font>
@@ -72,6 +94,81 @@
 			<B>240</B>
 		</TextColor>
 		<NoWrap>true</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+	<Gauge item="Target_CastingGauge">
+		<EQType>7</EQType>
+		<ScreenID>Gauge</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>46</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>10</CY>
+		</Size>
+		<TextOffsetX>-500</TextOffsetX>
+		<GaugeOffsetY>0</GaugeOffsetY>
+		<FillTint>
+			<R>192</R>
+			<G>0</G>
+			<B>192</B>
+		</FillTint>
+		<DrawLinesFill>false</DrawLinesFill>
+		<GaugeDrawTemplate>
+			<Background>A_SmallGaugeBackground</Background>
+			<Fill>A_SmallGaugeFill</Fill>
+			<EndCapLeft>A_SmallGaugeEndCapLeft</EndCapLeft>
+			<EndCapRight>A_SmallGaugeEndCapRight</EndCapRight>
+		</GaugeDrawTemplate>
+	</Gauge>
+
+	<Label item="Target_CastingSpellNameShd">
+		<ScreenID />
+		<EQType>134</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>3</X>
+			<Y>59</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>13</CY>
+		</Size>
+		<Text />
+		<TextColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
+	</Label>
+
+	<Label item="Target_CastingSpellName">
+		<ScreenID />
+		<EQType>134</EQType>
+		<Font>2</Font>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>58</Y>
+		</Location>
+		<Size>
+			<CX>230</CX>
+			<CY>13</CY>
+		</Size>
+		<Text />
+		<TextColor>
+			<R>240</R>
+			<G>240</G>
+			<B>240</B>
+		</TextColor>
+		<NoWrap>false</NoWrap>
+		<AlignCenter>true</AlignCenter>
 	</Label>
 	
 	<Label item="Target_HPPercLabel">
@@ -86,8 +183,8 @@
 			<Y>242</Y>
 		</Location>
 		<Size>
-			<CX>266</CX>
-			<CY>51</CY>
+			<CX>240</CX>
+			<CY>75</CY>
 		</Size>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
@@ -99,9 +196,13 @@
 		<Style_Minimizebox>false</Style_Minimizebox>
 		<Style_Border>true</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
+		<Pieces>Target_NameLabelShd</Pieces>
 		<Pieces>Target_NameLabel</Pieces>
 		<Pieces>Target_HP</Pieces>
 		<Pieces>Target_HPLabel</Pieces>
 		<Pieces>Target_HPPercLabel</Pieces>
+		<Pieces>Target_CastingGauge</Pieces>
+		<Pieces>Target_CastingSpellNameShd</Pieces>
+		<Pieces>Target_CastingSpellName</Pieces>
 	</Screen>
 </XML>
