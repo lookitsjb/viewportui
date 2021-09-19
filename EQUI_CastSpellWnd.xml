@@ -496,7 +496,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>122</Y>
+			<Y>112</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -668,7 +668,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>30</X>
-			<Y>161</Y>
+			<Y>167</Y>
 		</Location>
 		<Size>
 			<CX>220</CX>
@@ -775,7 +775,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>2</X>
-			<Y>191</Y>
+			<Y>181</Y>
 		</Location>
 		<Size>
 			<CX>260</CX>
@@ -815,7 +815,7 @@
 		<Font>1</Font>
 		<Location>
 			<X>36</X>
-			<Y>181</Y>
+			<Y>187</Y>
 		</Location>
 		<Size>
 			<CX>224</CX>

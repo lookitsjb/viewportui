@@ -10,7 +10,7 @@
 			<Y>2</Y>
 		</Location>
 		<Size>
-			<CX>225</CX>
+			<CX>230</CX>
 			<CY>20</CY>
 		</Size>
 		<GaugeOffsetY>0</GaugeOffsetY>
@@ -37,7 +37,7 @@
 			<Y>50</Y>
 		</Location>
 		<Size>
-			<CX>231</CX>
+			<CX>240</CX>
 			<CY>26</CY>
 		</Size>
 		<Text>Air Remaining</Text>
